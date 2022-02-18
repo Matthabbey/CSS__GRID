@@ -1,0 +1,25 @@
+body{
+    font-family: 'Nunito serif';
+    text-align: center;
+}
+
+#content{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 30% 20%;
+    max-width: 960px;
+    margin: 0 auto;
+
+    grid-auto-rows: minmax(200px, auto);
+}
+
+#content div{
+    background: chocolate;
+    padding: 30px;
+}
+
+#content div:nth-child(even){
+    background: darkcyan;
+    padding: 30px;
+
+}
